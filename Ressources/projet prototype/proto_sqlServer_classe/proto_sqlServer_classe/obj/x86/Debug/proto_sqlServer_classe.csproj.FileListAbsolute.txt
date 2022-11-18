@@ -1,0 +1,35 @@
+C:\Users\EARL HELLARD\Documents\Documents_BTS\_SIO\SIO_cours\SLAM4\SLAM4_prj_c#\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\EARL HELLARD\Documents\Documents_BTS\_SIO\SIO_cours\SLAM4\SLAM4_prj_c#\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.Form1.resources
+C:\Users\EARL HELLARD\Documents\Documents_BTS\_SIO\SIO_cours\SLAM4\SLAM4_prj_c#\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.Properties.Resources.resources
+C:\Users\EARL HELLARD\Documents\Documents_BTS\_SIO\SIO_cours\SLAM4\SLAM4_prj_c#\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\EARL HELLARD\Documents\Documents_BTS\_SIO\SIO_cours\SLAM4\SLAM4_prj_c#\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\EARL HELLARD\Documents\Documents_BTS\_SIO\SIO_cours\SLAM4\SLAM4_prj_c#\proto_sqlServer_classe\proto_sqlServer_classe\bin\Debug\proto_sqlServer_classe.exe
+C:\Users\EARL HELLARD\Documents\Documents_BTS\_SIO\SIO_cours\SLAM4\SLAM4_prj_c#\proto_sqlServer_classe\proto_sqlServer_classe\bin\Debug\proto_sqlServer_classe.pdb
+C:\Users\EARL HELLARD\Documents\Documents_BTS\_SIO\SIO_cours\SLAM4\SLAM4_prj_c#\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.exe
+C:\Users\EARL HELLARD\Documents\Documents_BTS\_SIO\SIO_cours\SLAM4\SLAM4_prj_c#\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.pdb
+C:\Users\EARL HELLARD\Documents\Documents_BTS\_SIO\SIO_cours\SLAM4\SLAM4_prj_c#\proto_sqlServer_classe\proto_sqlServer_classe\bin\Debug\proto_sqlServer_classe.XML
+C:\Users\EARL HELLARD\Documents\Documents_BTS\_SIO\SIO_cours\PPE\2012 2013 BTS2\ppe_m2L_fredi\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\bin\Debug\proto_sqlServer_classe.XML
+C:\Users\EARL HELLARD\Documents\Documents_BTS\_SIO\SIO_cours\PPE\2012 2013 BTS2\ppe_m2L_fredi\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.exe
+C:\Users\EARL HELLARD\Documents\Documents_BTS\_SIO\SIO_cours\PPE\2012 2013 BTS2\ppe_m2L_fredi\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.pdb
+C:\Users\HELLARD.BTSDOM\hubiC\Documents\monSio\SIO_cours\PPE\2016 2017\02 - Gestion des autorisations de mise sur le marché\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\bin\Debug\proto_sqlServer_classe.XML
+C:\Users\HELLARD.BTSDOM\hubiC\Documents\monSio\SIO_cours\PPE\2016 2017\02 - Gestion des autorisations de mise sur le marché\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.exe
+C:\Users\HELLARD.BTSDOM\hubiC\Documents\monSio\SIO_cours\PPE\2016 2017\02 - Gestion des autorisations de mise sur le marché\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.pdb
+C:\Users\HELLARD.BTSDOM\hubiC\Documents\monSio\SIO_cours\PPE\2016 2017\02 - Gestion des autorisations de mise sur le marché\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.Form1.resources
+C:\Users\HELLARD.BTSDOM\hubiC\Documents\monSio\SIO_cours\PPE\2016 2017\02 - Gestion des autorisations de mise sur le marché\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.Form2.resources
+C:\Users\HELLARD.BTSDOM\hubiC\Documents\monSio\SIO_cours\PPE\2016 2017\02 - Gestion des autorisations de mise sur le marché\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.frmMenu.resources
+C:\Users\HELLARD.BTSDOM\hubiC\Documents\monSio\SIO_cours\PPE\2016 2017\02 - Gestion des autorisations de mise sur le marché\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.Properties.Resources.resources
+C:\Users\HELLARD.BTSDOM\hubiC\Documents\monSio\SIO_cours\PPE\2016 2017\02 - Gestion des autorisations de mise sur le marché\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.csproj.GenerateResource.Cache
+C:\Users\HELLARD.BTSDOM\hubiC\Documents\monSio\SIO_cours\PPE\2016 2017\02 - Gestion des autorisations de mise sur le marché\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\bin\Debug\proto_sqlServer_classe.exe
+C:\Users\HELLARD.BTSDOM\hubiC\Documents\monSio\SIO_cours\PPE\2016 2017\02 - Gestion des autorisations de mise sur le marché\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\bin\Debug\proto_sqlServer_classe.pdb
+D:\Travaux\2022-2023\AP\AP2_C#\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.csproj.AssemblyReference.cache
+D:\Travaux\2022-2023\AP\AP2_C#\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.Form1.resources
+D:\Travaux\2022-2023\AP\AP2_C#\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.Form2.resources
+D:\Travaux\2022-2023\AP\AP2_C#\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.frmMenu.resources
+D:\Travaux\2022-2023\AP\AP2_C#\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.Properties.Resources.resources
+D:\Travaux\2022-2023\AP\AP2_C#\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.csproj.GenerateResource.cache
+D:\Travaux\2022-2023\AP\AP2_C#\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.csproj.CoreCompileInputs.cache
+D:\Travaux\2022-2023\AP\AP2_C#\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.exe
+D:\Travaux\2022-2023\AP\AP2_C#\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\obj\x86\Debug\proto_sqlServer_classe.pdb
+D:\Travaux\2022-2023\AP\AP2_C#\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\bin\Debug\proto_sqlServer_classe.XML
+D:\Travaux\2022-2023\AP\AP2_C#\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\bin\Debug\proto_sqlServer_classe.exe
+D:\Travaux\2022-2023\AP\AP2_C#\projet prototype\proto_sqlServer_classe\proto_sqlServer_classe\bin\Debug\proto_sqlServer_classe.pdb
