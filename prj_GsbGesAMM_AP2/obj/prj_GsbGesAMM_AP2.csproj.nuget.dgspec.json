@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\duchenec\\source\\repos\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2.csproj": {}
+    "C:\\Users\\duchenec\\source\\repos\\prj_GsbGesAMM_AP2\\AP2 BTS2 SLAM GSB\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\duchenec\\source\\repos\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2.csproj": {
+    "C:\\Users\\duchenec\\source\\repos\\prj_GsbGesAMM_AP2\\AP2 BTS2 SLAM GSB\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duchenec\\source\\repos\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2.csproj",
+        "projectUniqueName": "C:\\Users\\duchenec\\source\\repos\\prj_GsbGesAMM_AP2\\AP2 BTS2 SLAM GSB\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2.csproj",
         "projectName": "prj_GsbGesAMM_AP2",
-        "projectPath": "C:\\Users\\duchenec\\source\\repos\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2.csproj",
+        "projectPath": "C:\\Users\\duchenec\\source\\repos\\prj_GsbGesAMM_AP2\\AP2 BTS2 SLAM GSB\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2.csproj",
         "packagesPath": "C:\\Users\\duchenec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duchenec\\source\\repos\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2\\obj\\",
+        "outputPath": "C:\\Users\\duchenec\\source\\repos\\prj_GsbGesAMM_AP2\\AP2 BTS2 SLAM GSB\\prj_GsbGesAMM_AP2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\duchenec\\AppData\\Roaming\\NuGet\\NuGet.Config",
