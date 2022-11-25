@@ -1,0 +1,8 @@
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\prj_GsbGesAMM_AP2\obj\Debug\netcoreapp3.1\prj_GsbGesAMM_AP2.csproj.AssemblyReference.cache
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\prj_GsbGesAMM_AP2\obj\Debug\netcoreapp3.1\prj_GsbGesAMM_AP2.Form1.resources
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\prj_GsbGesAMM_AP2\obj\Debug\netcoreapp3.1\prj_GsbGesAMM_AP2.FrmAjoutMedicament.resources
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\prj_GsbGesAMM_AP2\obj\Debug\netcoreapp3.1\prj_GsbGesAMM_AP2.csproj.GenerateResource.cache
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\prj_GsbGesAMM_AP2\obj\Debug\netcoreapp3.1\prj_GsbGesAMM_AP2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\prj_GsbGesAMM_AP2\obj\Debug\netcoreapp3.1\prj_GsbGesAMM_AP2.AssemblyInfoInputs.cache
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\prj_GsbGesAMM_AP2\obj\Debug\netcoreapp3.1\prj_GsbGesAMM_AP2.AssemblyInfo.cs
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\prj_GsbGesAMM_AP2\obj\Debug\netcoreapp3.1\prj_GsbGesAMM_AP2.csproj.CoreCompileInputs.cache
