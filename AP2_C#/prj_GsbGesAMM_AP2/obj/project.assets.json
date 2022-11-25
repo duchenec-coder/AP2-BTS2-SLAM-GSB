@@ -8,19 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\duchenec\\.nuget\\packages\\": {}
+    "C:\\Users\\guillotg\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\duchenec\\source\\repos\\prj_GsbGesAMM_AP2\\AP2 BTS2 SLAM GSB\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2.csproj",
+      "projectUniqueName": "C:\\Users\\guillotg\\Documents\\AP2 BTS SIO 2 C# GSB\\AP2-BTS2-SLAM-GSB\\AP2_C#\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2.csproj",
       "projectName": "prj_GsbGesAMM_AP2",
-      "projectPath": "C:\\Users\\duchenec\\source\\repos\\prj_GsbGesAMM_AP2\\AP2 BTS2 SLAM GSB\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2.csproj",
-      "packagesPath": "C:\\Users\\duchenec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\duchenec\\source\\repos\\prj_GsbGesAMM_AP2\\AP2 BTS2 SLAM GSB\\prj_GsbGesAMM_AP2\\obj\\",
+      "projectPath": "C:\\Users\\guillotg\\Documents\\AP2 BTS SIO 2 C# GSB\\AP2-BTS2-SLAM-GSB\\AP2_C#\\prj_GsbGesAMM_AP2\\prj_GsbGesAMM_AP2.csproj",
+      "packagesPath": "C:\\Users\\guillotg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\guillotg\\Documents\\AP2 BTS SIO 2 C# GSB\\AP2-BTS2-SLAM-GSB\\AP2_C#\\prj_GsbGesAMM_AP2\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\duchenec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\guillotg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -51,7 +57,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -63,7 +70,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
