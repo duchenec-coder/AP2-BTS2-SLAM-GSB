@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.SqlClient;
 
 namespace prj_GSB_gesAMM
 {
-    internal class Globale
+    internal class Medicament
     {
-        public static SqlConnection cnx;
-        public static Dictionary<string, Utilisateur> LesUtilisateurs;
+
     }
 }

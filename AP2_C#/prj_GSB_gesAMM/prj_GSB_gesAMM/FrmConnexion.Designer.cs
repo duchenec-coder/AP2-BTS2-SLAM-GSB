@@ -87,7 +87,6 @@
             this.LbIdetifiant.Size = new System.Drawing.Size(84, 20);
             this.LbIdetifiant.TabIndex = 3;
             this.LbIdetifiant.Text = "Identifiant :";
-            this.LbIdetifiant.Click += new System.EventHandler(this.LbIdetifiant_Click);
             // 
             // label2
             // 
