@@ -35,6 +35,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader8 = new System.Windows.Forms.ColumnHeader();
             this.SuspendLayout();
             // 
             // lvMedicamentValidation
@@ -77,7 +80,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(742, 29);
+            this.label2.Location = new System.Drawing.Point(710, 29);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 20);
             this.label2.TabIndex = 2;
@@ -86,12 +89,30 @@
             // 
             // listView1
             // 
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader4,
+            this.columnHeader7,
+            this.columnHeader8});
             this.listView1.Location = new System.Drawing.Point(623, 56);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(303, 339);
+            this.listView1.Size = new System.Drawing.Size(266, 339);
             this.listView1.TabIndex = 3;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Décision";
+            this.columnHeader4.Width = 100;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "Etape";
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "Date";
+            this.columnHeader8.Width = 100;
             // 
             // FrmMedicamentValidation
             // 
@@ -119,5 +140,8 @@
         private Label label1;
         private Label label2;
         private ListView listView1;
+        private ColumnHeader columnHeader4;
+        private ColumnHeader columnHeader7;
+        private ColumnHeader columnHeader8;
     }
 }
