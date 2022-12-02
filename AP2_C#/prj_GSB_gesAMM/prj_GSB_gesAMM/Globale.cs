@@ -10,6 +10,6 @@ namespace prj_GSB_gesAMM
     internal class Globale
     {
         public static SqlConnection cnx;
-
+        public static Dictionary<string, Medicament> lesMedicaments;
     }
 }

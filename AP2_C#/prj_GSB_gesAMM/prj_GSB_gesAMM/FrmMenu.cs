@@ -16,5 +16,11 @@ namespace prj_GSB_gesAMM
         {
             InitializeComponent();
         }
+
+        private void FrmMenu_Load(object sender, EventArgs e)
+        {
+            Bdd.getMedicaments();
+            Bdd.getWorkflow();
+        }
     }
 }

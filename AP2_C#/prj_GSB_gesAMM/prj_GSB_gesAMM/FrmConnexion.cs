@@ -27,6 +27,14 @@ namespace prj_GSB_gesAMM
             Globale.cnx = new System.Data.SqlClient.SqlConnection();
             Globale.cnx.ConnectionString = "Data Source=BTS2021-19\\SQLEXPRESS;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True";
             Globale.cnx.Open();
+
+            Globale.lesMedicaments = new Dictionary<string, Medicament>();
+        }
+
+        private void btnMedValid_Click(object sender, EventArgs e)
+        {
+            FrmMedicamentValidation frmMedicamentValidation = new FrmMedicamentValidation();
+            frmMedicamentValidation.Show();
         }
     }
 }
