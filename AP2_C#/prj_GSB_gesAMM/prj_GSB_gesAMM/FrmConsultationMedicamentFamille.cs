@@ -45,8 +45,8 @@ namespace prj_GSB_gesAMM
                     
                         ListViewItem ligne = new ListViewItem();
 
-                    ligne.Text=laFamille.getCode();
-                        ligne.SubItems.Add(laFamille.getdicMediAmm().getComposition());
+                    ligne.Text = laFamille.getCode(); ;
+                        ligne.SubItems.Add(laFamille.getLibelle());
                         ligne.SubItems.Add(laFamille.getnbMediAmm().ToString()) ;
                         lvMedicament.Items.Add(ligne);
                     }

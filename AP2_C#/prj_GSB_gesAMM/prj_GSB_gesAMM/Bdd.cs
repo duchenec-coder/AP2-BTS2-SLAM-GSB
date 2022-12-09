@@ -22,9 +22,9 @@ namespace prj_GSB_gesAMM
             //boucle de lecture des clients avec ajout dans la collection
             while (SqlExec.Read())
             {
-                string codeFamille = SqlExec["@codeFamille"].ToString();
-                string composition = SqlExec["@composition"].ToString();
-                int nbMedicaments = int.Parse(SqlExec["@nbMedicaments"].ToString());
+                string codeFamille = SqlExec["FAM_CODE"].ToString();
+                string composition = SqlExec["FAM_LIBELLE"].ToString();
+                int nbMedicaments = int.Parse(SqlExec["FAM_NB_MEDI_AMM"].ToString());
 
                 Famille laFamille = new Famille(codeFamille, composition, nbMedicaments);
 
