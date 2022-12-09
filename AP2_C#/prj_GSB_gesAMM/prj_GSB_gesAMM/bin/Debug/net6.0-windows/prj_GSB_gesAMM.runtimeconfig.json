@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "runtimeOptions": {
     "tfm": "net6.0",
@@ -13,20 +12,4 @@
       }
     ]
   }
-=======
-{
-  "runtimeOptions": {
-    "tfm": "net6.0",
-    "frameworks": [
-      {
-        "name": "Microsoft.NETCore.App",
-        "version": "6.0.0"
-      },
-      {
-        "name": "Microsoft.WindowsDesktop.App",
-        "version": "6.0.0"
-      }
-    ]
-  }
->>>>>>> Feature_Consultation_Medicament_Validation
 }

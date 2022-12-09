@@ -1,33 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Travaux\\2022-2023\\GitHub\\AP2-BTS2-SLAM-GSB\\AP2_C#\\prj_GSB_gesAMM\\prj_GSB_gesAMM\\prj_GSB_gesAMM.csproj": {}
+    "D:\\BTS SIO\\Année 2\\AP\\AP2_C#\\AP2-BTS2-SLAM-GSB\\AP2_C#\\prj_GSB_gesAMM\\prj_GSB_gesAMM\\prj_GSB_gesAMM.csproj": {}
   },
   "projects": {
-    "D:\\Travaux\\2022-2023\\GitHub\\AP2-BTS2-SLAM-GSB\\AP2_C#\\prj_GSB_gesAMM\\prj_GSB_gesAMM\\prj_GSB_gesAMM.csproj": {
+    "D:\\BTS SIO\\Année 2\\AP\\AP2_C#\\AP2-BTS2-SLAM-GSB\\AP2_C#\\prj_GSB_gesAMM\\prj_GSB_gesAMM\\prj_GSB_gesAMM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Travaux\\2022-2023\\GitHub\\AP2-BTS2-SLAM-GSB\\AP2_C#\\prj_GSB_gesAMM\\prj_GSB_gesAMM\\prj_GSB_gesAMM.csproj",
+        "projectUniqueName": "D:\\BTS SIO\\Année 2\\AP\\AP2_C#\\AP2-BTS2-SLAM-GSB\\AP2_C#\\prj_GSB_gesAMM\\prj_GSB_gesAMM\\prj_GSB_gesAMM.csproj",
         "projectName": "prj_GSB_gesAMM",
-        "projectPath": "D:\\Travaux\\2022-2023\\GitHub\\AP2-BTS2-SLAM-GSB\\AP2_C#\\prj_GSB_gesAMM\\prj_GSB_gesAMM\\prj_GSB_gesAMM.csproj",
-        "packagesPath": "C:\\Users\\mirochaa\\.nuget\\packages\\",
-        "outputPath": "D:\\Travaux\\2022-2023\\GitHub\\AP2-BTS2-SLAM-GSB\\AP2_C#\\prj_GSB_gesAMM\\prj_GSB_gesAMM\\obj\\",
+        "projectPath": "D:\\BTS SIO\\Année 2\\AP\\AP2_C#\\AP2-BTS2-SLAM-GSB\\AP2_C#\\prj_GSB_gesAMM\\prj_GSB_gesAMM\\prj_GSB_gesAMM.csproj",
+        "packagesPath": "C:\\Users\\guillotg\\.nuget\\packages\\",
+        "outputPath": "D:\\BTS SIO\\Année 2\\AP\\AP2_C#\\AP2-BTS2-SLAM-GSB\\AP2_C#\\prj_GSB_gesAMM\\prj_GSB_gesAMM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mirochaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\guillotg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

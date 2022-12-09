@@ -11,6 +11,7 @@ namespace prj_GSB_gesAMM
     {
         public static void getMedicaments()
         {
+            Globale.lesMedicaments = new Dictionary<string, Medicament>();
             Globale.lesMedicaments.Clear();
 
             //objet SQLCommand pour définir la procédure stockée à utiliser
@@ -129,7 +130,6 @@ namespace prj_GSB_gesAMM
                 Utilisateur LeUtil = new Utilisateur(id, identifiant, mdp);
 
                 Globale.LesUtilisateurs.Add(LeUtil.getIdentifiant(),LeUtil);
-                MessageBox.Show(LeUtil.getIdentifiant() + " " + LeUtil.getMdp());
             }
         }
     }
