@@ -21,9 +21,11 @@ namespace prj_GSB_gesAMM
             this.MedDepotlegal = medDepotLegal;
         }
 
+        //getters
         public DateTime getDate() { return this.dateDecision; }
         public int getDecisionId() { return this.decisionID; }
         public int getNumeroEtape() { return this.numeroEtape; }
         public string getMedDepotLegal() { return this.MedDepotlegal; }
+
     }
 }

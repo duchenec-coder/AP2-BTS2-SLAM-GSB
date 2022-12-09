@@ -34,7 +34,7 @@
             this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.lvWorkflow = new System.Windows.Forms.ListView();
             this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader8 = new System.Windows.Forms.ColumnHeader();
@@ -52,6 +52,8 @@
             this.lvMedicamentValidation.TabIndex = 0;
             this.lvMedicamentValidation.UseCompatibleStateImageBehavior = false;
             this.lvMedicamentValidation.View = System.Windows.Forms.View.Details;
+            this.lvMedicamentValidation.SelectedIndexChanged += new System.EventHandler(this.lvMedicamentValidation_SelectedIndexChanged);
+            this.lvMedicamentValidation.Click += new System.EventHandler(this.lvMedicamentValidation_Click);
             // 
             // columnHeader1
             // 
@@ -80,25 +82,25 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(710, 29);
+            this.label2.Location = new System.Drawing.Point(700, 29);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "WORKFLOW";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // listView1
+            // lvWorkflow
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.lvWorkflow.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader4,
             this.columnHeader7,
             this.columnHeader8});
-            this.listView1.Location = new System.Drawing.Point(623, 56);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(266, 339);
-            this.listView1.TabIndex = 3;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.lvWorkflow.Location = new System.Drawing.Point(598, 56);
+            this.lvWorkflow.Name = "lvWorkflow";
+            this.lvWorkflow.Size = new System.Drawing.Size(294, 339);
+            this.lvWorkflow.TabIndex = 3;
+            this.lvWorkflow.UseCompatibleStateImageBehavior = false;
+            this.lvWorkflow.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader4
             // 
@@ -112,14 +114,14 @@
             // columnHeader8
             // 
             this.columnHeader8.Text = "Date";
-            this.columnHeader8.Width = 100;
+            this.columnHeader8.Width = 130;
             // 
             // FrmMedicamentValidation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(988, 450);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.lvWorkflow);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lvMedicamentValidation);
@@ -139,7 +141,7 @@
         private ColumnHeader columnHeader3;
         private Label label1;
         private Label label2;
-        private ListView listView1;
+        private ListView lvWorkflow;
         private ColumnHeader columnHeader4;
         private ColumnHeader columnHeader7;
         private ColumnHeader columnHeader8;

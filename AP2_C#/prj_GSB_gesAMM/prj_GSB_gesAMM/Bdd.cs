@@ -31,7 +31,7 @@ namespace prj_GSB_gesAMM
                 string AMM = SqlExec["MED_AMM"].ToString();
                 string codeFamille = SqlExec["MED_FAM_CODE"].ToString();
 
-                Dictionary<string, Workflow> lesEtapes = new Dictionary<string, Workflow>();
+                List<Workflow> lesEtapes = new List<Workflow>();
 
                Medicament leMedicament = new Medicament(depotLegal, nom, composition, effet, contreIndic, AMM, codeFamille, lesEtapes);
 
@@ -39,9 +39,9 @@ namespace prj_GSB_gesAMM
             }
         }
 
+
         public static void getWorkflow()
         {
-            Globale.lesMedicaments.Clear();
 
             //objet SQLCommand pour définir la procédure stockée à utiliser
             SqlCommand maRequete = new SqlCommand("getWorkflow", Globale.cnx);
@@ -54,14 +54,60 @@ namespace prj_GSB_gesAMM
             while (SqlExec.Read())
             {
                 DateTime dateDecision = DateTime.Parse(SqlExec["WRK_DATE_DECISION"].ToString());
-                int ID = int.Parse(SqlExec["WRK_DSC_ID"].ToString());
+                int ID = int.Parse(SqlExec["WRK_DCS_ID"].ToString());
                 int etapeNum = int.Parse(SqlExec["WRK_ETP_NUM"].ToString());
                 string medDepotLegal = SqlExec["WRK_MED_DEPOTLEGAL"].ToString();
 
                 Workflow laEtape = new Workflow(dateDecision, ID, etapeNum, medDepotLegal);
 
-                Globale.lesMedicaments[medDepotLegal].ajouterEtape(medDepotLegal, laEtape);
+                Globale.lesMedicaments[medDepotLegal].ajouterEtape(laEtape);
 
+            }
+        }
+
+        public static void getFamille()
+        {
+            Globale.lesFamilles = new Dictionary<string, Famille>();
+            Globale.lesFamilles.Clear();
+
+            //objet SQLCommand pour définir la procédure stockée à utiliser
+            SqlCommand maRequete = new SqlCommand("getFamille", Globale.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+            // exécuter la procedure stockée dans un curseur 
+            SqlDataReader SqlExec = maRequete.ExecuteReader();
+
+            //boucle de lecture des clients avec ajout dans la collection
+            while (SqlExec.Read())
+            {
+                string FAM_CODE = (SqlExec["FAM_CODE"].ToString());
+                string FAM_LIBELLE = (SqlExec["FAM_LIBELLE"].ToString());
+                int FAM_NB_MEDI_AMM = int.Parse(SqlExec["FAM_NB_MEDI_AMM"].ToString());
+
+                Famille uneFamille = new Famille(FAM_CODE, FAM_LIBELLE, FAM_NB_MEDI_AMM);
+                Globale.lesFamilles.Add(FAM_CODE, uneFamille);
+            }
+        }
+
+        public static void getDecision()
+        {
+            Globale.lesDecisions = new Dictionary<int, Decision>();
+            Globale.lesDecisions.Clear();
+
+            //objet SQLCommand pour définir la procédure stockée à utiliser
+            SqlCommand maRequete = new SqlCommand("getDecision", Globale.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+            // exécuter la procedure stockée dans un curseur 
+            SqlDataReader SqlExec = maRequete.ExecuteReader();
+
+            //boucle de lecture des clients avec ajout dans la collection
+            while (SqlExec.Read())
+            {
+                int DCS_ID = int.Parse(SqlExec["DCS_ID"].ToString());
+                string DCS_LIBELLE = (SqlExec["DCS_LIBELLE"].ToString());
+                Decision uneDecision = new Decision(DCS_ID, DCS_LIBELLE);
+                Globale.lesDecisions.Add(DCS_ID,uneDecision);
             }
         }
     }
