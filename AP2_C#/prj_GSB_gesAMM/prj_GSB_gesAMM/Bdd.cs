@@ -10,7 +10,7 @@ namespace prj_GSB_gesAMM
     {
         public static void lireLesFamilles()
         {
-            globale.lesFamilles.Clear();
+            Globale.lesFamilles.Clear();
 
             //objet SQLCommand pour définir la procédure stockée à utiliser
             SqlCommand maRequete = new SqlCommand("prc_listeConsultation", Globale.cnx);
@@ -26,16 +26,17 @@ namespace prj_GSB_gesAMM
                 string composition = SqlExec["@composition"].ToString();
                 int nbMedicaments = int.Parse(SqlExec["@nbMedicaments"].ToString());
 
-               Famille laFamille=new Famille(codeFamille, composition, nbMedicaments);
+                Famille laFamille = new Famille(codeFamille, composition, nbMedicaments);
 
-                globale.lesFamilles.Add(laFamille);
+                Globale.lesFamilles.Add(codeFamille,laFamille);
             }
+        }
 
 
-            public static Boolean ajouterMedicament(char depotlegal, char commmercial, char composition, char effets, char conteIndications,char Amm, char code)
+        public static Boolean ajouterMedicament(char depotlegal, char commmercial, char composition, char effets, char conteIndications, char Amm, char code)
         {
-           
-             //objet SQLCommand pour définir la procédure stockée à utiliser
+
+            //objet SQLCommand pour définir la procédure stockée à utiliser
             SqlCommand maRequete = new SqlCommand("prc_ajout_Medicament", Globale.cnx);
             maRequete.CommandType = System.Data.CommandType.StoredProcedure;
 
@@ -54,7 +55,7 @@ namespace prj_GSB_gesAMM
             paramAmm.Value = Amm;
             SqlParameter paramFamCode = new SqlParameter("@fam_code", System.Data.SqlDbType.Int, 30);
             paramFamCode.Value = code;
-           
+
             maRequete.Parameters.Add(paramDepotlegal);
             maRequete.Parameters.Add(paramCommercial);
             maRequete.Parameters.Add(paramComposition);
@@ -77,3 +78,4 @@ namespace prj_GSB_gesAMM
 
         }
     }
+}

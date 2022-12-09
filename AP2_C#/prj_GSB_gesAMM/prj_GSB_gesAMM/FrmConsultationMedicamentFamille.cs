@@ -36,19 +36,22 @@ namespace prj_GSB_gesAMM
         private void btn_Valider_Click(object sender, EventArgs e)
         {
             lvMedicament.Items.Clear();
-            foreach (Famille laFamille in Globale.lesFamilles)
+            Dictionary<string,Famille>.KeyCollection lesMedics=Globale.lesFamilles.Keys;
+            foreach (string libelle in lesMedics) 
             {
-                
+                    Famille laFamille = Globale.lesFamilles[libelle];
                     if (laFamille.getLibelle() == tbFamille.Text)
                     {
+                    
                         ListViewItem ligne = new ListViewItem();
-                        ligne.Text = laFamille.getCode();
-                        ligne.SubItems.Add(laFamille.getMedicament().getComposition());
-                    ligne.SubItems.Add(laFamille.) ;
+
+                    ligne.Text=laFamille.getCode();
+                        ligne.SubItems.Add(laFamille.getdicMediAmm().getComposition());
+                        ligne.SubItems.Add(laFamille.getnbMediAmm().ToString()) ;
                         lvMedicament.Items.Add(ligne);
                     }
                 }
             }
         }
     }
-}
+

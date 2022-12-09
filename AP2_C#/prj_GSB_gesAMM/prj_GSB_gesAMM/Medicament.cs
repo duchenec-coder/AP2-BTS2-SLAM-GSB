@@ -14,7 +14,8 @@ namespace prj_GSB_gesAMM
 		private string contreIndications;
 		private int Amm;
 		private string codeFamille;
-		private List<Workflow> lesEtapes;
+		/*private List<Workflow> lesEtapes;*/
+		private Dictionary<string, Famille> lesFamilles;
 
 		public Medicament(string depotlegal, string commercial, string composition, string effets, string contreIndications, int Amm, string codeFamille)
 		{
@@ -25,7 +26,8 @@ namespace prj_GSB_gesAMM
 			this.contreIndications = contreIndications;
 			this.Amm = Amm;
 			this.codeFamille = codeFamille;
-			this.lesEtapes = new List<Worflow>();
+			/*this.lesEtapes = new List<Worflow>();*/
+			this.lesFamilles = new Dictionary<string, Famille>();
 		}
 		public string getDepot() { return this.depotlegal; }
 		public string getCommercial() { return this.commercial; }
@@ -34,7 +36,11 @@ namespace prj_GSB_gesAMM
 		public string getCI() { return this.contreIndications; }
 		public int  getAmm() { return this.Amm; }
 		public string getCodeFamille() { return this.codeFamille; }
-		public string getLesEtapes() { return this.lesEtapes; }
+		/*public string getLesEtapes() { return this.lesEtapes; }*/
+		public Dictionary<string,Famille> getlesFamilles()
+		{
+			return Globale.lesFamilles;
+		}
 	}
 }
 
