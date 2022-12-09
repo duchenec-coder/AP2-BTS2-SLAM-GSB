@@ -18,7 +18,7 @@ namespace prj_GSB_gesAMM
             {
                 if (Globale.LesUtilisateurs[TbIdentifiant.Text].getMdp() == TbMdp.Text)
                 {
-                    MessageBox.Show("Connexion réussie");
+                    MessageBox.Show("Connexion rï¿½ussie");
                     FrmMenu frmMenu = new FrmMenu();
                     frmMenu.Show();
                     this.Hide();
@@ -44,6 +44,12 @@ namespace prj_GSB_gesAMM
             Globale.LesUtilisateurs = new Dictionary<string, Utilisateur>();
 
             Bdd.SelectUtilisateurs();
+        }
+
+        private void btnMedValid_Click(object sender, EventArgs e)
+        {
+            FrmMedicamentValidation frmMedicamentValidation = new FrmMedicamentValidation();
+            frmMedicamentValidation.Show();
         }
     }
 }
