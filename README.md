@@ -45,9 +45,9 @@ Un trigger fonctionne selon 3 principes:
 
 On souhaite ajouter un médicament si le depot légal est inconnu
 
-*Evénement*: AVANT insertion d'un nouveau médicament
-*Condition*: Si le dépot légal est dans la base de données
-*Action*: Affichage message d'erreur
+- *Evénement*: AVANT insertion d'un nouveau médicament
+- *Condition*: Si le dépot légal est dans la base de données
+- *Action*: Affichage message d'erreur
 
 ## Appendix 🗒️
 
