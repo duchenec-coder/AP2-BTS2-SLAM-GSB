@@ -40,7 +40,7 @@ Un trigger fonctionne selon 3 principes:
 - L'événement: Insertion, modification ou suppression de données
 - La condition: Si elle n'est pas valide, alors l'éxecution s'arrête
 - L'action: Si la condition est vérifiée, le résultat s'affiche
-===
+
 
 
 On souhaite ajouter un médicament si le depot légal est inconnu
@@ -48,7 +48,7 @@ On souhaite ajouter un médicament si le depot légal est inconnu
 *Evénement*: AVANT insertion d'un nouveau médicament
 *Condition*: Si le dépot légal est dans la base de données
 *Action*: Affichage message d'erreur
-===
+
 ## Appendix 🗒️
 
 Autres informations:
