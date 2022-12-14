@@ -42,7 +42,7 @@ Un trigger fonctionne selon 3 principes:
 - L'action: Si la condition est vérifiée, le résultat s'affiche
 ===
 
-===
+
 On souhaite ajouter un médicament si le depot légal est inconnu
 
 *Evénement*: AVANT insertion d'un nouveau médicament
