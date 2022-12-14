@@ -14,16 +14,16 @@ géographiques métropolitains. Elle doit également pouvoir se charger des éta
 
 Le site est géré par les élements suivants : 
 - ![](https://www.bing.com/images/search?view=detailV2&ccid=nHXKKwwn&id=96C856C3EF244F5B824FD49AE2005FBB49D4CB80&thid=OIP.nHXKKwwndYToJ8IMCprE6wHaG9&mediaurl=https%3a%2f%2fwww.corsinvest.it%2fwp-content%2fuploads%2f2019%2f10%2fcsharp-logo.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.9c75ca2b0c277584e827c20c0a9ac4eb%3frik%3dgMvUSbtfAOKa1A%26pid%3dImgRaw%26r%3d0&exph=692&expw=737&q=csharp&simid=608055421327131904&FORM=IRPRST&ck=FDF2EF015A1EBFE939E418B449542012&selectedIndex=0&ajaxhist=0&ajaxserp=0)
-- ![](https://www.bing.com/images/search?view=detailV2&ccid=gjbCeoUh&id=699A7B70C288C53252051110467487003BF21273&thid=OIP.gjbCeoUhI4f0zuByNecyZgAAAA&mediaurl=https%3a%2f%2f1.bp.blogspot.com%2f-bBFQnSmDq6g%2fXp5KJEFCJsI%2fAAAAAAAAAMc%2fgBf2EFeus8cjj0viVOGf3CBBCNncZjBjgCLcBGAsYHQ%2fs1600%2fSQL-Server-Management-Studio-Logo.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.8236c27a85212387f4cee07235e73266%3frik%3dcxLyOwCHdEYQEQ%26pid%3dImgRaw%26r%3d0%26sres%3d1%26sresct%3d1%26srh%3d800%26srw%3d825&exph=346&expw=357&q=mysql++management+studio+logo&simid=608038039607274360&FORM=IRPRST&ck=01F6B6C015EF3EC92B738688F175A0DC&selectedIndex=22&ajaxhist=0&ajaxserp=0
+- ![](https://www.bing.com/images/search?view=detailV2&ccid=gjbCeoUh&id=699A7B70C288C53252051110467487003BF21273&thid=OIP.gjbCeoUhI4f0zuByNecyZgAAAA&mediaurl=https%3a%2f%2f1.bp.blogspot.com%2f-bBFQnSmDq6g%2fXp5KJEFCJsI%2fAAAAAAAAAMc%2fgBf2EFeus8cjj0viVOGf3CBBCNncZjBjgCLcBGAsYHQ%2fs1600%2fSQL-Server-Management-Studio-Logo.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.8236c27a85212387f4cee07235e73266%3frik%3dcxLyOwCHdEYQEQ%26pid%3dImgRaw%26r%3d0%26sres%3d1%26sresct%3d1%26srh%3d800%26srw%3d825&exph=346&expw=357&q=mysql++management+studio+logo&simid=608038039607274360&FORM=IRPRST&ck=01F6B6C015EF3EC92B738688F175A0DC&selectedIndex=22&ajaxhist=0&ajaxserp=0)
 
 
 
 Ce projet sera à rendre au plus tard le 06/01/2023 à 20h au client. 
 ## Auteurs 😎
 [![GitHub watchers](https://badgen.net/github/watchers/duchenec-coder/AP2 BTS2 SLAM GSB)](https://GitHub.com/Naereen/StrapDown.js/watchers/)
-- [@duchenec-coder](https://github.com/duchenec-coder)
-- [@GuiGasp7714](https://github.com/GuiGasp7714)
-- [@Purvanas](https://github.com/Purvanas)
+- [@duchenec-coder](https://github.com/duchenec-coder) Clément DUCHENE
+- [@GuiGasp7714](https://github.com/GuiGasp7714) Gaspard GUILLOT
+- [@Purvanas](https://github.com/Purvanas) Arnaud MIROCHA
 
 
 ## Features 🧠
