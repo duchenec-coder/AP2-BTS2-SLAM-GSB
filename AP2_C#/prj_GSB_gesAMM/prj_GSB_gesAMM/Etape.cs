@@ -10,10 +10,10 @@ namespace prj_GSB_gesAMM
     {
         private int ETP_NUM;
         private string ETP_LIBELLE;
-        private bool ETP_NORME;
+        private string ETP_NORME;
         private DateTime ETP_DATE_NORME;
 
-        public Etape(int ETP_NUM, string ETP_LIBELLE, bool ETP_NORME, DateTime ETP_DATE_NORME)
+        public Etape(int ETP_NUM, string ETP_LIBELLE, string ETP_NORME, DateTime ETP_DATE_NORME)
         {
             this.ETP_NUM = ETP_NUM;
             this.ETP_LIBELLE = ETP_LIBELLE;
@@ -24,12 +24,12 @@ namespace prj_GSB_gesAMM
         //getters
         public int getNum() { return this.ETP_NUM; }
         public string getLibelle() { return this.ETP_LIBELLE; }
-        public bool getNorme() { return this.ETP_NORME; }
+        public string getNorme() { return this.ETP_NORME; }
         public DateTime getDateNorme() { return this.ETP_DATE_NORME; }
 
         //setters
         public void setLibelle(string libelle) { this.ETP_LIBELLE = libelle; }
-        public void setNorme(bool norme) { this.ETP_NORME = norme; }
+        public void setNorme(string norme) { this.ETP_NORME = norme; }
         public void setDateNorme(DateTime date) { this.ETP_DATE_NORME = date; }
     }
 }

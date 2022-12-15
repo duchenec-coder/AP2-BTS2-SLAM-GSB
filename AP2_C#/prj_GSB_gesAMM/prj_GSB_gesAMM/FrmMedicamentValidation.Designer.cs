@@ -48,7 +48,7 @@
             this.columnHeader3});
             this.lvMedicamentValidation.Location = new System.Drawing.Point(60, 56);
             this.lvMedicamentValidation.Name = "lvMedicamentValidation";
-            this.lvMedicamentValidation.Size = new System.Drawing.Size(380, 339);
+            this.lvMedicamentValidation.Size = new System.Drawing.Size(583, 339);
             this.lvMedicamentValidation.TabIndex = 0;
             this.lvMedicamentValidation.UseCompatibleStateImageBehavior = false;
             this.lvMedicamentValidation.View = System.Windows.Forms.View.Details;
@@ -68,12 +68,12 @@
             // columnHeader3
             // 
             this.columnHeader3.Text = "Famille";
-            this.columnHeader3.Width = 100;
+            this.columnHeader3.Width = 300;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(180, 29);
+            this.label1.Location = new System.Drawing.Point(288, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(112, 20);
             this.label1.TabIndex = 1;
@@ -82,7 +82,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(700, 29);
+            this.label2.Location = new System.Drawing.Point(952, 29);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 20);
             this.label2.TabIndex = 2;
@@ -95,9 +95,9 @@
             this.columnHeader4,
             this.columnHeader7,
             this.columnHeader8});
-            this.lvWorkflow.Location = new System.Drawing.Point(598, 56);
+            this.lvWorkflow.Location = new System.Drawing.Point(755, 56);
             this.lvWorkflow.Name = "lvWorkflow";
-            this.lvWorkflow.Size = new System.Drawing.Size(294, 339);
+            this.lvWorkflow.Size = new System.Drawing.Size(487, 339);
             this.lvWorkflow.TabIndex = 3;
             this.lvWorkflow.UseCompatibleStateImageBehavior = false;
             this.lvWorkflow.View = System.Windows.Forms.View.Details;
@@ -110,6 +110,7 @@
             // columnHeader7
             // 
             this.columnHeader7.Text = "Etape";
+            this.columnHeader7.Width = 250;
             // 
             // columnHeader8
             // 
@@ -120,7 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(988, 450);
+            this.ClientSize = new System.Drawing.Size(1323, 450);
             this.Controls.Add(this.lvWorkflow);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

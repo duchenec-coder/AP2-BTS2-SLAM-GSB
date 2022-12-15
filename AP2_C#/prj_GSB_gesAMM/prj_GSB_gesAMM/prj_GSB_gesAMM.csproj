@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <BaseIntermediateOutputPath>D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj</BaseIntermediateOutputPath>
   </PropertyGroup>
 
   <ItemGroup>

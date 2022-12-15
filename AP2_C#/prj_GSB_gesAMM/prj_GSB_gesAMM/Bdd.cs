@@ -11,6 +11,7 @@ namespace prj_GSB_gesAMM
     {
         public static void getMedicaments()
         {
+            Globale.lesMedicaments = new Dictionary<string, Medicament>();
             Globale.lesMedicaments.Clear();
 
             //objet SQLCommand pour définir la procédure stockée à utiliser
@@ -62,6 +63,34 @@ namespace prj_GSB_gesAMM
 
                 Globale.lesMedicaments[medDepotLegal].ajouterEtape(laEtape);
 
+            }
+        }
+
+        public static void getEtape()
+        {
+            Globale.lesEtapes = new Dictionary<int, Etape>();
+            Globale.lesEtapes.Clear();
+
+            //objet SQLCommand pour définir la procédure stockée à utiliser
+            SqlCommand maRequete = new SqlCommand("getEtape", Globale.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+            // exécuter la procedure stockée dans un curseur 
+            SqlDataReader SqlExec = maRequete.ExecuteReader();
+
+            //boucle de lecture des clients avec ajout dans la collection
+            while (SqlExec.Read())
+            {
+                DateTime dateNorme = DateTime.MinValue;
+                int etapeNum = int.Parse(SqlExec["ETP_NUM"].ToString());
+                string libelle = (SqlExec["ETP_LIBELLE"].ToString());
+                string norme = (SqlExec["ETP_NORME"].ToString());
+                if((SqlExec["ETP_DATE_NORME"].ToString()) != "")
+                {
+                    dateNorme = DateTime.Parse(SqlExec["ETP_DATE_NORME"].ToString());
+                }
+                Etape uneEtape = new Etape(etapeNum, libelle, norme,dateNorme);
+                Globale.lesEtapes.Add(etapeNum, uneEtape);
             }
         }
 
@@ -130,6 +159,80 @@ namespace prj_GSB_gesAMM
 
                 Globale.LesUtilisateurs.Add(LeUtil.getIdentifiant(),LeUtil);
                 MessageBox.Show(LeUtil.getIdentifiant() + " " + LeUtil.getMdp());
+            }
+        }
+
+        public static Boolean inserHistorique(DateTime dateMaj, int idUtilHist, int etpNumHist, string normeAvMaj, string normeApMaj, DateTime dateNormeAvMaj, DateTime dateNormeApMaj)
+        {
+            SqlCommand maRequete = new SqlCommand("insertHistorique", Globale.cnx);
+            // Il s’agit d’une procédure stockée:
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+            // Ajouter les parameters à la procédure stockée
+            //@dateMaj DateTime, @idUtilHist int, @etpNumHist int, @normeAvMaj text, @normeApMaj text, @dateNormeAvMaj date, @dateNormeApMaj date)
+            SqlParameter paramDateMaj = new SqlParameter("@dateMaj", System.Data.SqlDbType.DateTime);
+            paramDateMaj.Value = dateMaj;
+            SqlParameter paramIdUtilHist = new SqlParameter("@idUtilHist", System.Data.SqlDbType.Int);
+            paramIdUtilHist.Value = idUtilHist;
+            SqlParameter paramEtpNumHist = new SqlParameter("@etpNumHist", System.Data.SqlDbType.Int);
+            paramEtpNumHist.Value = idUtilHist;
+            SqlParameter paramNormeAvMaj = new SqlParameter("@normeAvMaj", System.Data.SqlDbType.Text);
+            paramNormeAvMaj.Value = normeAvMaj;
+            SqlParameter paramNormeApMaj = new SqlParameter("@normeApMaj", System.Data.SqlDbType.Text);
+            paramNormeApMaj.Value = normeApMaj;
+            SqlParameter paramDateNormeAvMaj = new SqlParameter("@dateNormeAvMaj", System.Data.SqlDbType.DateTime);
+            paramDateNormeAvMaj.Value = dateNormeApMaj;
+            SqlParameter paramDateNormeApMaj = new SqlParameter("@dateNormeApMaj", System.Data.SqlDbType.DateTime);
+            paramDateNormeApMaj.Value = dateNormeApMaj;
+
+            maRequete.Parameters.Add(paramDateMaj);
+            maRequete.Parameters.Add(paramIdUtilHist);
+            maRequete.Parameters.Add(paramEtpNumHist);
+            maRequete.Parameters.Add(paramNormeAvMaj);
+            maRequete.Parameters.Add(paramNormeApMaj);
+            maRequete.Parameters.Add(paramDateNormeAvMaj);
+            maRequete.Parameters.Add(paramDateNormeApMaj);
+
+
+            try
+            {
+                maRequete.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public static Boolean updateEtapeNormee(DateTime dateNorme, string norme, int ETP_NUM)
+        {
+            SqlCommand maRequete = new SqlCommand("updateEtapeNormee", Globale.cnx);
+            // Il s’agit d’une procédure stockée:
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+            // Ajouter les parameters à la procédure stockée
+            //@dateMaj DateTime, @idUtilHist int, @etpNumHist int, @normeAvMaj text, @normeApMaj text, @dateNormeAvMaj date, @dateNormeApMaj date)
+            SqlParameter paramDateNorme = new SqlParameter("@dateNorme", System.Data.SqlDbType.DateTime);
+            paramDateNorme.Value = dateNorme;
+            SqlParameter paramNorme = new SqlParameter("@Norme", System.Data.SqlDbType.Text);
+            paramNorme.Value = norme;
+            SqlParameter paramNumEtape = new SqlParameter("@EtapeNum", System.Data.SqlDbType.Int);
+            paramNumEtape.Value = ETP_NUM;
+
+            maRequete.Parameters.Add(paramDateNorme);
+            maRequete.Parameters.Add(paramNorme);
+            maRequete.Parameters.Add(paramNumEtape);
+
+            // exécuter la procedure stockée
+            try
+            {
+                maRequete.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
             }
         }
     }

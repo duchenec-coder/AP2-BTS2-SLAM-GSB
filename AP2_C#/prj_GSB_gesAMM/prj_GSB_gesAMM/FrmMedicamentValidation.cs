@@ -20,6 +20,7 @@ namespace prj_GSB_gesAMM
         private void FrmMedicamentValidation_Load(object sender, EventArgs e)
         {
             Bdd.getDecision();
+            Bdd.getEtape();
             Bdd.getFamille();
             Bdd.getMedicaments();
             Bdd.getWorkflow();
@@ -57,9 +58,10 @@ namespace prj_GSB_gesAMM
                 string med = lvMedicamentValidation.SelectedItems[0].Text;
                 foreach (Workflow etape in Globale.lesMedicaments[med].getWorkflow())
                 {
+                    int lEtape = etape.getNumeroEtape();
                     ListViewItem ligne = new ListViewItem();
                     ligne.Text = Globale.lesDecisions[etape.getDecisionId()].getLibelle().ToString();
-                    ligne.SubItems.Add(etape.getNumeroEtape().ToString());
+                    ligne.SubItems.Add(Globale.lesEtapes[lEtape].getLibelle());
                     ligne.SubItems.Add(etape.getDate().ToShortDateString());
 
                     lvWorkflow.Items.Add(ligne);
