@@ -26,7 +26,7 @@ namespace prj_GSB_gesAMM
             Bdd.getWorkflow();
             Dictionary<string, Medicament> med = Globale.lesMedicaments;
             foreach (string key in Globale.lesMedicaments.Keys){
-                if (med[key].getAMM() == "")
+                if (med[key].getAMM() == "" || med[key].getAMM() == "0")
                 {
                     string fam = med[key].getCodeFamille();
                     ListViewItem ligne = new ListViewItem();
