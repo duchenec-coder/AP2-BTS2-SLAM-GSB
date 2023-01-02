@@ -36,7 +36,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.TbMdp = new System.Windows.Forms.TextBox();
             this.TbIdentifiant = new System.Windows.Forms.TextBox();
-            this.btnMedValid = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -112,23 +111,12 @@
             this.TbIdentifiant.Size = new System.Drawing.Size(209, 27);
             this.TbIdentifiant.TabIndex = 6;
             // 
-            // btnMedValid
-            // 
-            this.btnMedValid.Location = new System.Drawing.Point(747, 67);
-            this.btnMedValid.Name = "btnMedValid";
-            this.btnMedValid.Size = new System.Drawing.Size(154, 38);
-            this.btnMedValid.TabIndex = 7;
-            this.btnMedValid.Text = "med validation";
-            this.btnMedValid.UseVisualStyleBackColor = true;
-            this.btnMedValid.Click += new System.EventHandler(this.btnMedValid_Click);
-            // 
             // FrmConnexion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1201, 450);
-            this.Controls.Add(this.btnMedValid);
+            this.ClientSize = new System.Drawing.Size(794, 450);
             this.Controls.Add(this.TbIdentifiant);
             this.Controls.Add(this.TbMdp);
             this.Controls.Add(this.label2);
@@ -154,6 +142,5 @@
         private Label label2;
         private TextBox TbMdp;
         private TextBox TbIdentifiant;
-        private Button btnMedValid;
     }
 }

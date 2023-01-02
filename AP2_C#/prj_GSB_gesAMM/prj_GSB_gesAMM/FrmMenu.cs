@@ -19,11 +19,17 @@ namespace prj_GSB_gesAMM
 
         private void FrmMenu_Load(object sender, EventArgs e)
         {
+            Bdd.getEtape();
             Bdd.getMedicaments();
             Bdd.getWorkflow();
+            Bdd.getDecision();
+            Bdd.getFamille();
         }
         private void workflowToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            FrmWorkflow FrmWork = new FrmWorkflow();
+            FrmWork.MdiParent = this;
+            FrmWork.Show();
         }
     }
 }
