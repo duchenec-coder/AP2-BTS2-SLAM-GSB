@@ -38,7 +38,7 @@ namespace prj_GSB_gesAMM
         private void FrmConnexion_Load(object sender, EventArgs e)
         {
             Globale.cnx = new System.Data.SqlClient.SqlConnection();
-            Globale.cnx.ConnectionString = "Data Source=BTS2021-10-2\\SQLEXPRESS;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True";
+            Globale.cnx.ConnectionString = "Data Source=BTS2021-19\\SQLEXPRESS;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True";
             Globale.cnx.Open();
 
             Globale.LesUtilisateurs = new Dictionary<string, Utilisateur>();

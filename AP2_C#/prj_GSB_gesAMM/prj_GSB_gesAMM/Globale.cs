@@ -15,5 +15,6 @@ namespace prj_GSB_gesAMM
         public static Dictionary<string, Famille> lesFamilles;
         public static Dictionary<int, Decision> lesDecisions;
         public static Dictionary<int, Etape> lesEtapes;
+        public static Utilisateur unutilisateur = new Utilisateur(1, "Admin", "pass");
     }
 }

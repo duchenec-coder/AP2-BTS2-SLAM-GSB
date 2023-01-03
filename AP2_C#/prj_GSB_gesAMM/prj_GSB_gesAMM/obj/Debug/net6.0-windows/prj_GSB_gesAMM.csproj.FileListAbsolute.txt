@@ -48,6 +48,7 @@ D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesA
 D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.pdb
 D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.genruntimeconfig.cache
 D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\ref\prj_GSB_gesAMM.dll
+<<<<<<< HEAD
 D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.exe
 D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.deps.json
 D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.runtimeconfig.json
@@ -99,3 +100,6 @@ D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_ge
 D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.pdb
 D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.genruntimeconfig.cache
 D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\ref\prj_GSB_gesAMM.dll
+=======
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmEtapeNormeeMAJ.resources
+>>>>>>> feature_modif_etape_normee

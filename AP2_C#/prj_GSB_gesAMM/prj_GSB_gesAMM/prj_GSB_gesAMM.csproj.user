@@ -4,6 +4,9 @@
     <Compile Update="FrmWorkflow.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmEtapeNormeeMAJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmMedicamentValidation.cs">
       <SubType>Form</SubType>
     </Compile>
