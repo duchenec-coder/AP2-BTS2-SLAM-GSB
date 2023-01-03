@@ -303,6 +303,49 @@ namespace prj_GSB_gesAMM
                 return false;
             }
         }
-    }
+        
+         public static Boolean ajouterMedicament(char depotlegal, char commmercial, char composition, char effets, char conteIndications, char Amm, char code)
+        {
 
+            //objet SQLCommand pour définir la procédure stockée à utiliser
+            SqlCommand maRequete = new SqlCommand("prc_ajout_Medicament", Globale.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+            SqlParameter paramDepotlegal = new SqlParameter("@med_depotlegal", System.Data.SqlDbType.Char, 30);
+            //Ajouter les paramétres à la procedure stockée dans un curseur 
+            paramDepotlegal.Value = depotlegal;
+            SqlParameter paramCommercial = new SqlParameter("@med_commercial", System.Data.SqlDbType.Char, 30);
+            paramCommercial.Value = commmercial;
+            paramComposition.Value = composition;
+            SqlParameter paramComposition = new SqlParameter("@med_composition", System.Data.SqlDbType.Char, 255);
+            SqlParameter paramEffets = new SqlParameter("@med_effets", System.Data.SqlDbType.Char, 30);
+            paramEffets.Value = effets;
+            SqlParameter paramCI = new SqlParameter("@med_contreIndications", System.Data.SqlDbType.Char, 255);
+            paramCI.Value = conteIndications;
+            SqlParameter paramAmm = new SqlParameter("@med_Amm", System.Data.SqlDbType.Char, 30);
+            SqlParameter paramFamCode = new SqlParameter("@fam_code", System.Data.SqlDbType.Int, 30);
+            paramAmm.Value = Amm;
+            paramFamCode.Value = code;
+
+            maRequete.Parameters.Add(paramDepotlegal);
+            maRequete.Parameters.Add(paramCommercial);
+            maRequete.Parameters.Add(paramEffets);
+            maRequete.Parameters.Add(paramComposition);
+            maRequete.Parameters.Add(paramCI);
+            maRequete.Parameters.Add(paramAmm);
+            maRequete.Parameters.Add(paramFamCode);
+
+            //boucle de lecture des clients avec ajout dans la collection
+
+            try
+            {
+                maRequete.ExecuteNonQuery();
+                return true;
+            catch
+            }
+            {
+                return false;
+            }
+        }
+    }
 }

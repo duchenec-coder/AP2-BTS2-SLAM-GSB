@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.exe
 D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.deps.json
 D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.runtimeconfig.json
@@ -103,3 +104,16 @@ D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_ge
 =======
 D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmEtapeNormeeMAJ.resources
 >>>>>>> feature_modif_etape_normee
+=======
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.csproj.AssemblyReference.cache
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmAjoutMédicament.resources
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmConnexion.resources
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmConsultationMedicamentFamille.resources
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmMenu.resources
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.Properties.Resources.resources
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.csproj.GenerateResource.cache
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.AssemblyInfoInputs.cache
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.AssemblyInfo.cs
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.csproj.CoreCompileInputs.cache
+>>>>>>> Feature_AjoutMedicament
