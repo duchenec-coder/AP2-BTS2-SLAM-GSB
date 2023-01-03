@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
+using Microsoft.Identity.Client;
 
 namespace prj_GSB_gesAMM
 {
@@ -11,6 +12,7 @@ namespace prj_GSB_gesAMM
     {
         public static void getMedicaments()
         {
+            Globale.lesMedicaments = new Dictionary<string, Medicament>();
             Globale.lesMedicaments.Clear();
 
             //objet SQLCommand pour définir la procédure stockée à utiliser
@@ -42,7 +44,6 @@ namespace prj_GSB_gesAMM
 
         public static void getWorkflow()
         {
-
             //objet SQLCommand pour définir la procédure stockée à utiliser
             SqlCommand maRequete = new SqlCommand("getWorkflow", Globale.cnx);
             maRequete.CommandType = System.Data.CommandType.StoredProcedure;
@@ -53,7 +54,7 @@ namespace prj_GSB_gesAMM
             //boucle de lecture des clients avec ajout dans la collection
             while (SqlExec.Read())
             {
-                DateTime dateDecision = DateTime.Parse(SqlExec["WRK_DATE_DECISION"].ToString());
+                DateTime dateDecision = SqlExec.GetDateTime(0);
                 int ID = int.Parse(SqlExec["WRK_DCS_ID"].ToString());
                 int etapeNum = int.Parse(SqlExec["WRK_ETP_NUM"].ToString());
                 string medDepotLegal = SqlExec["WRK_MED_DEPOTLEGAL"].ToString();
@@ -61,7 +62,6 @@ namespace prj_GSB_gesAMM
                 Workflow laEtape = new Workflow(dateDecision, ID, etapeNum, medDepotLegal);
 
                 Globale.lesMedicaments[medDepotLegal].ajouterEtape(laEtape);
-
             }
         }
 
@@ -129,8 +129,78 @@ namespace prj_GSB_gesAMM
                 Utilisateur LeUtil = new Utilisateur(id, identifiant, mdp);
 
                 Globale.LesUtilisateurs.Add(LeUtil.getIdentifiant(),LeUtil);
-                MessageBox.Show(LeUtil.getIdentifiant() + " " + LeUtil.getMdp());
             }
         }
+
+        public static void getEtape()
+        {
+            Globale.lesEtapes = new Dictionary<int, Etape>();
+            Globale.lesEtapes.Clear();
+
+            //objet SQLCommand pour définir la procédure stockée à utiliser
+            SqlCommand maRequete = new SqlCommand("getEtape", Globale.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+            // exécuter la procedure stockée dans un curseur 
+            SqlDataReader SqlExec = maRequete.ExecuteReader();
+
+            //boucle de lecture des clients avec ajout dans la collection
+            while (SqlExec.Read())
+            {
+                int ETP_NUM = int.Parse(SqlExec["ETP_NUM"].ToString());
+                string ETP_LIBELLE = (SqlExec["ETP_LIBELLE"].ToString());
+                string ETP_NORME = (SqlExec["ETP_NORME"].ToString());
+                DateTime ETP_DATE_NORME;
+                if (SqlExec["ETP_DATE_NORME"].GetType() != typeof(DBNull))
+                {
+                    ETP_DATE_NORME = SqlExec.GetDateTime(3);
+                }
+                else
+                {
+                    ETP_DATE_NORME = DateTime.MinValue;
+                }
+                Etape uneEtape = new Etape(ETP_NUM, ETP_LIBELLE, ETP_NORME, ETP_DATE_NORME);
+                Globale.lesEtapes.Add(ETP_NUM, uneEtape);
+            }
+        }
+
+        public static void UpdateDecis(int decis, int etape, string depotLegal)
+        {
+            //objet SQLCommand pour définir la procédure stockée à utiliser
+            SqlCommand maRequete = new SqlCommand("ChangDecision", Globale.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+            maRequete.Parameters.Add(new SqlParameter("@DepotLegal", depotLegal));
+            maRequete.Parameters.Add(new SqlParameter("@NumEtape", etape));
+            maRequete.Parameters.Add(new SqlParameter("@IdDeci", decis));
+
+            // exécuter la procedure stockée dans un curseur 
+            SqlDataReader SqlExec = maRequete.ExecuteReader();
+        }
+
+        public static void AjoutWorkflow(string depotLegal)
+        {
+            //objet SQLCommand pour définir la procédure stockée à utiliser
+            SqlCommand maRequete = new SqlCommand("ajoutWorkflow", Globale.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+            maRequete.Parameters.Add(new SqlParameter("@DepotLegal", depotLegal));
+
+            // exécuter la procedure stockée dans un curseur 
+            SqlDataReader SqlExec = maRequete.ExecuteReader();
+        }
+
+        public static void refresh()
+        {
+            Globale.lesDecisions.Clear();
+            Globale.lesEtapes.Clear();
+            Globale.lesFamilles.Clear();
+            Globale.lesMedicaments.Clear();
+            Globale.LesUtilisateurs.Clear();
+            Bdd.getEtape();
+            Bdd.getMedicaments();
+            Bdd.getWorkflow();
+            Bdd.getDecision();
+            Bdd.getFamille();
+        }
     }
+
 }

@@ -38,6 +38,7 @@
             this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader8 = new System.Windows.Forms.ColumnHeader();
+            this.btnQuitter = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lvMedicamentValidation
@@ -116,11 +117,27 @@
             this.columnHeader8.Text = "Date";
             this.columnHeader8.Width = 130;
             // 
+            // btnQuitter
+            // 
+            this.btnQuitter.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnQuitter.FlatAppearance.BorderSize = 5;
+            this.btnQuitter.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnQuitter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnQuitter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQuitter.Location = new System.Drawing.Point(938, 397);
+            this.btnQuitter.Name = "btnQuitter";
+            this.btnQuitter.Size = new System.Drawing.Size(111, 53);
+            this.btnQuitter.TabIndex = 4;
+            this.btnQuitter.Text = "Quitter";
+            this.btnQuitter.UseVisualStyleBackColor = true;
+            // 
             // FrmMedicamentValidation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(988, 450);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1061, 462);
+            this.Controls.Add(this.btnQuitter);
             this.Controls.Add(this.lvWorkflow);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -145,5 +162,6 @@
         private ColumnHeader columnHeader4;
         private ColumnHeader columnHeader7;
         private ColumnHeader columnHeader8;
+        private Button btnQuitter;
     }
 }

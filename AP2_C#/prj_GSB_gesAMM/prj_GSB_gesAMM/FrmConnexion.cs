@@ -45,11 +45,5 @@ namespace prj_GSB_gesAMM
 
             Bdd.SelectUtilisateurs();
         }
-
-        private void btnMedValid_Click(object sender, EventArgs e)
-        {
-            FrmMedicamentValidation frmMedicamentValidation = new FrmMedicamentValidation();
-            frmMedicamentValidation.Show();
-        }
     }
 }
