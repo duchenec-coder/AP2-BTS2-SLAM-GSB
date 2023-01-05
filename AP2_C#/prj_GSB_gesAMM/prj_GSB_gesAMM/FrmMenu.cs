@@ -59,5 +59,15 @@ namespace prj_GSB_gesAMM
             FrmMajEtapeNorme.MdiParent = this;
             FrmMajEtapeNorme.Show();
         }
+
+        private void modifierLaNormeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmMenu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+           Application.Exit();
+        }
     }
 }

@@ -19,9 +19,6 @@ namespace prj_GSB_gesAMM
 
         private void FrmConsultationMedicamentFamille_Load(object sender, EventArgs e)
         {
-            Globale.cnx = new System.Data.SqlClient.SqlConnection();
-            Globale.cnx.ConnectionString = "Data Source=BTS2021-10-2\\SQLEXPRESS;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True";
-            Globale.cnx.Open();
             btn_Valider.Enabled = false;
         }
 
