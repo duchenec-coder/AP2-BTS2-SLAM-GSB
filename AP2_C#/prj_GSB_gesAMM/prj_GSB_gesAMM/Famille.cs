@@ -21,7 +21,7 @@ namespace prj_GSB_gesAMM
 
         public string getFamCode() { return this.FAM_CODE; }
         public string getLibelle() { return this.FAM_LIBELLE; }
-        public int  getnbMediAmm() { return this.nbMediAmm; }
+        public int  getnbMediAmm() { return this.FAM_NB_MEDI_AMM; }
     }
 
 

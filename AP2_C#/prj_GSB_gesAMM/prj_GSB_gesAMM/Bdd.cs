@@ -160,38 +160,6 @@ namespace prj_GSB_gesAMM
             }
         }
 
-        public static void getEtape()
-        {
-            Globale.lesEtapes = new Dictionary<int, Etape>();
-            Globale.lesEtapes.Clear();
-
-            //objet SQLCommand pour définir la procédure stockée à utiliser
-            SqlCommand maRequete = new SqlCommand("getEtape", Globale.cnx);
-            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
-
-            // exécuter la procedure stockée dans un curseur 
-            SqlDataReader SqlExec = maRequete.ExecuteReader();
-
-            //boucle de lecture des clients avec ajout dans la collection
-            while (SqlExec.Read())
-            {
-                int ETP_NUM = int.Parse(SqlExec["ETP_NUM"].ToString());
-                string ETP_LIBELLE = (SqlExec["ETP_LIBELLE"].ToString());
-                string ETP_NORME = (SqlExec["ETP_NORME"].ToString());
-                DateTime ETP_DATE_NORME;
-                if (SqlExec["ETP_DATE_NORME"].GetType() != typeof(DBNull))
-                {
-                    ETP_DATE_NORME = SqlExec.GetDateTime(3);
-                }
-                else
-                {
-                    ETP_DATE_NORME = DateTime.MinValue;
-                }
-                Etape uneEtape = new Etape(ETP_NUM, ETP_LIBELLE, ETP_NORME, ETP_DATE_NORME);
-                Globale.lesEtapes.Add(ETP_NUM, uneEtape);
-            }
-        }
-
         public static void UpdateDecis(int decis, int etape, string depotLegal)
         {
             //objet SQLCommand pour définir la procédure stockée à utiliser
@@ -316,8 +284,8 @@ namespace prj_GSB_gesAMM
             paramDepotlegal.Value = depotlegal;
             SqlParameter paramCommercial = new SqlParameter("@med_commercial", System.Data.SqlDbType.Char, 30);
             paramCommercial.Value = commmercial;
-            paramComposition.Value = composition;
             SqlParameter paramComposition = new SqlParameter("@med_composition", System.Data.SqlDbType.Char, 255);
+            paramComposition.Value = composition;
             SqlParameter paramEffets = new SqlParameter("@med_effets", System.Data.SqlDbType.Char, 30);
             paramEffets.Value = effets;
             SqlParameter paramCI = new SqlParameter("@med_contreIndications", System.Data.SqlDbType.Char, 255);
@@ -341,8 +309,8 @@ namespace prj_GSB_gesAMM
             {
                 maRequete.ExecuteNonQuery();
                 return true;
-            catch
             }
+            catch
             {
                 return false;
             }

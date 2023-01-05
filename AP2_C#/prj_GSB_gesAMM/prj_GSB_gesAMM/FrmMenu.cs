@@ -31,5 +31,33 @@ namespace prj_GSB_gesAMM
             FrmWork.MdiParent = this;
             FrmWork.Show();
         }
+
+        private void enCoursDeDécisionToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FrmMedicamentValidation FrmMedicValid = new FrmMedicamentValidation();
+            FrmMedicValid.MdiParent = this;
+            FrmMedicValid.Show();
+        }
+
+        private void tousToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FrmConsultationMedicamentFamille FrmMedicFamille = new FrmConsultationMedicamentFamille();
+            FrmMedicFamille.MdiParent = this;
+            FrmMedicFamille.Show();
+        }
+
+        private void ajouterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmAjoutMédicament FrmAjoutMedic = new FrmAjoutMédicament();
+            FrmAjoutMedic.MdiParent = this;
+            FrmAjoutMedic.Show();
+        }
+
+        private void éToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmEtapeNormeeMAJ FrmMajEtapeNorme = new FrmEtapeNormeeMAJ();
+            FrmMajEtapeNorme.MdiParent = this;
+            FrmMajEtapeNorme.Show();
+        }
     }
 }

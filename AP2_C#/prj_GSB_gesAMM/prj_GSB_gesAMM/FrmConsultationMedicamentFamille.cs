@@ -20,7 +20,7 @@ namespace prj_GSB_gesAMM
         private void FrmConsultationMedicamentFamille_Load(object sender, EventArgs e)
         {
             Globale.cnx = new System.Data.SqlClient.SqlConnection();
-            Globale.cnx.ConnectionString = "Data Source=BTS2021-08\\SQLEXPRESS;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True";
+            Globale.cnx.ConnectionString = "Data Source=BTS2021-10-2\\SQLEXPRESS;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True";
             Globale.cnx.Open();
             btn_Valider.Enabled = false;
         }
@@ -45,7 +45,7 @@ namespace prj_GSB_gesAMM
                     
                         ListViewItem ligne = new ListViewItem();
 
-                    ligne.Text = laFamille.getCode(); ;
+                    ligne.Text = laFamille.getFamCode(); ;
                         ligne.SubItems.Add(laFamille.getLibelle());
                         ligne.SubItems.Add(laFamille.getnbMediAmm().ToString()) ;
                         lvMedicament.Items.Add(ligne);

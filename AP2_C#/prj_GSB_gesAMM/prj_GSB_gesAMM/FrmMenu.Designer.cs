@@ -32,9 +32,9 @@
             this.medicamentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tousToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.enCoursDeDécisionToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.validésToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.refusésToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajouterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.workflowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.éToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,7 +43,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.medicamentsToolStripMenuItem,
-            this.workflowToolStripMenuItem});
+            this.workflowToolStripMenuItem,
+            this.éToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
@@ -55,8 +56,7 @@
             this.medicamentsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tousToolStripMenuItem1,
             this.enCoursDeDécisionToolStripMenuItem1,
-            this.validésToolStripMenuItem1,
-            this.refusésToolStripMenuItem1});
+            this.ajouterToolStripMenuItem});
             this.medicamentsToolStripMenuItem.Name = "medicamentsToolStripMenuItem";
             this.medicamentsToolStripMenuItem.Size = new System.Drawing.Size(112, 24);
             this.medicamentsToolStripMenuItem.Text = "Medicaments";
@@ -65,25 +65,22 @@
             // 
             this.tousToolStripMenuItem1.Name = "tousToolStripMenuItem1";
             this.tousToolStripMenuItem1.Size = new System.Drawing.Size(227, 26);
-            this.tousToolStripMenuItem1.Text = "Tous";
+            this.tousToolStripMenuItem1.Text = "Par famille";
+            this.tousToolStripMenuItem1.Click += new System.EventHandler(this.tousToolStripMenuItem1_Click);
             // 
             // enCoursDeDécisionToolStripMenuItem1
             // 
             this.enCoursDeDécisionToolStripMenuItem1.Name = "enCoursDeDécisionToolStripMenuItem1";
             this.enCoursDeDécisionToolStripMenuItem1.Size = new System.Drawing.Size(227, 26);
             this.enCoursDeDécisionToolStripMenuItem1.Text = "En cours de décision";
+            this.enCoursDeDécisionToolStripMenuItem1.Click += new System.EventHandler(this.enCoursDeDécisionToolStripMenuItem1_Click);
             // 
-            // validésToolStripMenuItem1
+            // ajouterToolStripMenuItem
             // 
-            this.validésToolStripMenuItem1.Name = "validésToolStripMenuItem1";
-            this.validésToolStripMenuItem1.Size = new System.Drawing.Size(227, 26);
-            this.validésToolStripMenuItem1.Text = "Validés";
-            // 
-            // refusésToolStripMenuItem1
-            // 
-            this.refusésToolStripMenuItem1.Name = "refusésToolStripMenuItem1";
-            this.refusésToolStripMenuItem1.Size = new System.Drawing.Size(227, 26);
-            this.refusésToolStripMenuItem1.Text = "Refusés";
+            this.ajouterToolStripMenuItem.Name = "ajouterToolStripMenuItem";
+            this.ajouterToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
+            this.ajouterToolStripMenuItem.Text = "Ajouter";
+            this.ajouterToolStripMenuItem.Click += new System.EventHandler(this.ajouterToolStripMenuItem_Click);
             // 
             // workflowToolStripMenuItem
             // 
@@ -91,6 +88,13 @@
             this.workflowToolStripMenuItem.Size = new System.Drawing.Size(86, 24);
             this.workflowToolStripMenuItem.Text = "Workflow";
             this.workflowToolStripMenuItem.Click += new System.EventHandler(this.workflowToolStripMenuItem_Click);
+            // 
+            // éToolStripMenuItem
+            // 
+            this.éToolStripMenuItem.Name = "éToolStripMenuItem";
+            this.éToolStripMenuItem.Size = new System.Drawing.Size(170, 24);
+            this.éToolStripMenuItem.Text = "Mise à jours de norme";
+            this.éToolStripMenuItem.Click += new System.EventHandler(this.éToolStripMenuItem_Click);
             // 
             // FrmMenu
             // 
@@ -118,8 +122,8 @@
         private ToolStripMenuItem medicamentsToolStripMenuItem;
         private ToolStripMenuItem tousToolStripMenuItem1;
         private ToolStripMenuItem enCoursDeDécisionToolStripMenuItem1;
-        private ToolStripMenuItem validésToolStripMenuItem1;
-        private ToolStripMenuItem refusésToolStripMenuItem1;
         private ToolStripMenuItem workflowToolStripMenuItem;
+        private ToolStripMenuItem ajouterToolStripMenuItem;
+        private ToolStripMenuItem éToolStripMenuItem;
     }
 }

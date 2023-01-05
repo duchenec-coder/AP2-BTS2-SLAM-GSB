@@ -21,12 +21,12 @@ namespace prj_GSB_gesAMM
         private void FrmAjoutMédicament_Load(object sender, EventArgs e)
         {
             Globale.cnx = new System.Data.SqlClient.SqlConnection();
-            Globale.cnx.ConnectionString = "Data Source=BTS2021-08\\SQLEXPRESS;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True";
+            Globale.cnx.ConnectionString = "Data Source=BTS2021-10-2\\SQLEXPRESS;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True";
             Globale.cnx.Open();
             //
-            foreach(Famille familles in Globale.lesFamilles)
+            foreach(string famille in Globale.lesFamilles.Keys)
             {
-                cb_Famille.Items.Add(familles.getCode());
+                cb_Famille.Items.Add(Globale.lesFamilles[famille].getFamCode());
             }
             
         }
@@ -191,11 +191,6 @@ namespace prj_GSB_gesAMM
         {
             FrmMenu frmMenu = new FrmMenu();
             frmMenu.ShowDialog();
-        }
-
-       
+        }   
     }
-    }
-    
-    
-
+}
