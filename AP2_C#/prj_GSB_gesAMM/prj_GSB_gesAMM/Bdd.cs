@@ -44,6 +44,11 @@ namespace prj_GSB_gesAMM
 
         public static void getWorkflow()
         {
+            foreach(string key in Globale.lesMedicaments.Keys)
+            {
+                Globale.lesMedicaments[key].clearWorkflow();
+            }
+
             //objet SQLCommand pour définir la procédure stockée à utiliser
             SqlCommand maRequete = new SqlCommand("getWorkflow", Globale.cnx);
             maRequete.CommandType = System.Data.CommandType.StoredProcedure;

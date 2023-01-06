@@ -107,6 +107,7 @@ namespace prj_GSB_gesAMM
                     Bdd.AjoutWorkflow(depotLegal);
                 }
             }
+            Bdd.refresh();
             this.Close();
         }
 

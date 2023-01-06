@@ -43,5 +43,11 @@ namespace prj_GSB_gesAMM
         {
             this.lesEtapes.Add(etape);
         }
+
+        public void clearWorkflow()
+        {
+            this.lesEtapes = new List<Workflow>();
+            this.lesEtapes.Clear();
+        }
     }
 }
