@@ -60,10 +60,10 @@ namespace prj_GSB_gesAMM
 
         private void btnNormeMAJ_Click(object sender, EventArgs e)
         {
-            if (Bdd.inserHistorique(DateTime.Now, Globale.unutilisateur.getId(), EtapeNum, NormeAvMaj, tbNorme.Text, DateAvMaj, dtpNorme.Value))
+            if(Bdd.updateEtapeNormee(dtpNorme.Value, tbNorme.Text, EtapeNum))
             {
-                if(Bdd.updateEtapeNormee(dtpNorme.Value, tbNorme.Text, EtapeNum)){
-                    
+                if (Bdd.inserHistorique(DateTime.Now, Globale.unutilisateur.getId(), EtapeNum, NormeAvMaj, tbNorme.Text, DateAvMaj, dtpNorme.Value))
+                {
                     MessageBox.Show("changement réussi");
                     reloadFrm();
                 }
