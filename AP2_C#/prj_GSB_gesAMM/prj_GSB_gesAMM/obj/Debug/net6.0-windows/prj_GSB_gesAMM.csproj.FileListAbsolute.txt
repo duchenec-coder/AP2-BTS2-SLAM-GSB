@@ -1,0 +1,116 @@
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.exe
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.deps.json
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.runtimeconfig.json
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.pdb
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.csproj.AssemblyReference.cache
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmConnexion.resources
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmMedicamentValidation.resources
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmMenu.resources
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.Properties.Resources.resources
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.csproj.GenerateResource.cache
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.GeneratedMSBuildEditorConfig.editorconfig
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.AssemblyInfoInputs.cache
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.AssemblyInfo.cs
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.csproj.CoreCompileInputs.cache
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.csproj.CopyComplete
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\refint\prj_GSB_gesAMM.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.pdb
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.genruntimeconfig.cache
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\ref\prj_GSB_gesAMM.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.exe
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.deps.json
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.runtimeconfig.json
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\prj_GSB_gesAMM.pdb
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.csproj.AssemblyReference.cache
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmConnexion.resources
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmMedicamentValidation.resources
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmMenu.resources
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmWorkflow.resources
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.Properties.Resources.resources
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.csproj.GenerateResource.cache
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.GeneratedMSBuildEditorConfig.editorconfig
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.AssemblyInfoInputs.cache
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.AssemblyInfo.cs
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.csproj.CoreCompileInputs.cache
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.csproj.CopyComplete
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\refint\prj_GSB_gesAMM.dll
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.pdb
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.genruntimeconfig.cache
+D:\BTS SIO\Année 2\AP\AP2_C#\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\ref\prj_GSB_gesAMM.dll
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmEtapeNormeeMAJ.resources
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.csproj.AssemblyReference.cache
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmAjoutMédicament.resources
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmConnexion.resources
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmConsultationMedicamentFamille.resources
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmMenu.resources
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.Properties.Resources.resources
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.csproj.GenerateResource.cache
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.AssemblyInfoInputs.cache
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.AssemblyInfo.cs
+C:\Users\duchenec\source\repos\prj_GsbGesAMM_AP2\AP2 BTS2 SLAM GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.csproj.CoreCompileInputs.cache
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmAjoutMédicament.resources
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmConsultationMedicamentFamille.resources
+D:\Travaux\2022-2023\GitHub\AP2-BTS2-SLAM-GSB\AP2_C#\prj_GSB_gesAMM\prj_GSB_gesAMM\obj\Debug\net6.0-windows\prj_GSB_gesAMM.FrmWorkflow.resources

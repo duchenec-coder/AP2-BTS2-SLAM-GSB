@@ -87,7 +87,6 @@
             this.LbIdetifiant.Size = new System.Drawing.Size(84, 20);
             this.LbIdetifiant.TabIndex = 3;
             this.LbIdetifiant.Text = "Identifiant :";
-            this.LbIdetifiant.Click += new System.EventHandler(this.LbIdetifiant_Click);
             // 
             // label2
             // 
@@ -102,6 +101,7 @@
             // 
             this.TbMdp.Location = new System.Drawing.Point(348, 312);
             this.TbMdp.Name = "TbMdp";
+            this.TbMdp.PasswordChar = '*';
             this.TbMdp.Size = new System.Drawing.Size(209, 27);
             this.TbMdp.TabIndex = 5;
             // 
