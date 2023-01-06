@@ -17,8 +17,7 @@ namespace prj_GSB_gesAMM
             if (Globale.LesUtilisateurs.Keys.Contains(TbIdentifiant.Text))
             {
                 if (Globale.LesUtilisateurs[TbIdentifiant.Text].getMdp() == TbMdp.Text)
-                {
-                    MessageBox.Show("Connexion r�ussie");
+                {                  
                     FrmMenu frmMenu = new FrmMenu();
                     frmMenu.Show();
                     this.Hide();

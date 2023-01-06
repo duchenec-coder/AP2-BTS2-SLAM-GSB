@@ -20,9 +20,6 @@ namespace prj_GSB_gesAMM
 
         private void FrmAjoutMédicament_Load(object sender, EventArgs e)
         {
-            Globale.cnx = new System.Data.SqlClient.SqlConnection();
-            Globale.cnx.ConnectionString = "Data Source=BTS2021-10-2\\SQLEXPRESS;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True";
-            Globale.cnx.Open();
             //
             foreach(string famille in Globale.lesFamilles.Keys)
             {
@@ -45,12 +42,13 @@ namespace prj_GSB_gesAMM
         private void tb_depot_TextChanged(object sender, EventArgs e)
         {
             if (tb_depot.Text != "" && tb_Commercial.Text != "" &&
-            tb_CI.Text != ""
-           && tb_Compo.Text != ""
-            && tb_Amm.Text != ""
-            && tb_Effets.Text != ""
-            && tb_Etape.Text != ""
-           && cb_Famille.SelectedItem.ToString() != "")
+             tb_CI.Text != ""
+            && tb_Compo.Text != ""
+             && tb_Amm.Text != ""
+             && tb_Effets.Text != ""
+             && tb_Etape.Text != ""
+            //&& cb_Famille.SelectedItem.ToString() != ""
+            )
             {
                 btn_Insérer.Enabled = true;
             }
@@ -63,12 +61,13 @@ namespace prj_GSB_gesAMM
         private void tb_Commercial_TextChanged(object sender, EventArgs e)
         {
             if (tb_depot.Text != "" && tb_Commercial.Text != "" &&
-           tb_CI.Text != ""
-          && tb_Compo.Text != ""
-           && tb_Amm.Text != ""
-           && tb_Effets.Text != ""
-           && tb_Etape.Text != ""
-          && cb_Famille.SelectedItem.ToString() != "")
+            tb_CI.Text != ""
+           && tb_Compo.Text != ""
+            && tb_Amm.Text != ""
+            && tb_Effets.Text != ""
+            && tb_Etape.Text != ""
+           //&& cb_Famille.SelectedItem.ToString() != ""
+           )
             {
                 btn_Insérer.Enabled = true;
             }
@@ -81,12 +80,13 @@ namespace prj_GSB_gesAMM
         private void tb_Compo_TextChanged(object sender, EventArgs e)
         {
             if (tb_depot.Text != "" && tb_Commercial.Text != "" &&
-           tb_CI.Text != ""
-          && tb_Compo.Text != ""
-           && tb_Amm.Text != ""
-           && tb_Effets.Text != ""
-           && tb_Etape.Text != ""
-          && cb_Famille.SelectedItem.ToString() != "")
+            tb_CI.Text != ""
+           && tb_Compo.Text != ""
+            && tb_Amm.Text != ""
+            && tb_Effets.Text != ""
+            && tb_Etape.Text != ""
+           //&& cb_Famille.SelectedItem.ToString() != ""
+           )
             {
                 btn_Insérer.Enabled = true;
             }
@@ -99,12 +99,13 @@ namespace prj_GSB_gesAMM
         private void tb_Effets_TextChanged(object sender, EventArgs e)
         {
             if (tb_depot.Text != "" && tb_Commercial.Text != "" &&
-           tb_CI.Text != ""
-          && tb_Compo.Text != ""
-           && tb_Amm.Text != ""
-           && tb_Effets.Text != ""
-           && tb_Etape.Text != ""
-          && cb_Famille.SelectedItem.ToString() != "")
+            tb_CI.Text != ""
+           && tb_Compo.Text != ""
+            && tb_Amm.Text != ""
+            && tb_Effets.Text != ""
+            && tb_Etape.Text != ""
+           //&& cb_Famille.SelectedItem.ToString() != ""
+           ) 
             {
                 btn_Insérer.Enabled = true;
             }
@@ -117,12 +118,13 @@ namespace prj_GSB_gesAMM
         private void tb_CI_TextChanged(object sender, EventArgs e)
         {
             if (tb_depot.Text != "" && tb_Commercial.Text != "" &&
-              tb_CI.Text != ""
-             && tb_Compo.Text != ""
-              && tb_Amm.Text != ""
-              && tb_Effets.Text != ""
-              && tb_Etape.Text != ""
-             && cb_Famille.SelectedItem.ToString() != "")
+            tb_CI.Text != ""
+           && tb_Compo.Text != ""
+            && tb_Amm.Text != ""
+            && tb_Effets.Text != ""
+            && tb_Etape.Text != ""
+           //&& cb_Famille.SelectedItem.ToString() != ""
+           )
             {
                 btn_Insérer.Enabled = true;
             }
@@ -140,7 +142,8 @@ namespace prj_GSB_gesAMM
              && tb_Amm.Text != ""
              && tb_Effets.Text != ""
              && tb_Etape.Text != ""
-            && cb_Famille.SelectedItem.ToString() != "")
+            //&& cb_Famille.SelectedItem.ToString() != ""
+            )
             {
                 btn_Insérer.Enabled = true;
             }
@@ -191,6 +194,18 @@ namespace prj_GSB_gesAMM
         {
             FrmMenu frmMenu = new FrmMenu();
             frmMenu.ShowDialog();
-        }   
+        }
+
+        private void btn_Insérer_Click(object sender, EventArgs e)
+        {
+            if (Bdd.ajouterMedicament(tb_depot.Text, tb_Commercial.Text, tb_Compo.Text, tb_Effets.Text, tb_CI.Text, int.Parse(tb_Amm.Text), cb_Famille.SelectedItem.ToString()))
+            {
+                MessageBox.Show("L'insertion du nouveau édicament a réussie");
+            }
+            else
+            {
+                MessageBox.Show("Echec de l'insertion");
+            }
+        }
     }
 }

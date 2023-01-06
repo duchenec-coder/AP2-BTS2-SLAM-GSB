@@ -272,26 +272,26 @@ namespace prj_GSB_gesAMM
             }
         }
         
-         public static Boolean ajouterMedicament(char depotlegal, char commmercial, char composition, char effets, char conteIndications, char Amm, char code)
+         public static Boolean ajouterMedicament(string depotlegal, string commmercial, string composition, string effets, string conteIndications, int Amm, string code)
         {
 
             //objet SQLCommand pour définir la procédure stockée à utiliser
             SqlCommand maRequete = new SqlCommand("prc_ajout_Medicament", Globale.cnx);
             maRequete.CommandType = System.Data.CommandType.StoredProcedure;
 
-            SqlParameter paramDepotlegal = new SqlParameter("@med_depotlegal", System.Data.SqlDbType.Char, 30);
+            SqlParameter paramDepotlegal = new SqlParameter("@med_depotlegal", System.Data.SqlDbType.VarChar, 30);
             //Ajouter les paramétres à la procedure stockée dans un curseur 
             paramDepotlegal.Value = depotlegal;
-            SqlParameter paramCommercial = new SqlParameter("@med_commercial", System.Data.SqlDbType.Char, 30);
+            SqlParameter paramCommercial = new SqlParameter("@med_commercial", System.Data.SqlDbType.VarChar, 30);
             paramCommercial.Value = commmercial;
-            SqlParameter paramComposition = new SqlParameter("@med_composition", System.Data.SqlDbType.Char, 255);
+            SqlParameter paramComposition = new SqlParameter("@med_composition", System.Data.SqlDbType.VarChar, 255);
             paramComposition.Value = composition;
-            SqlParameter paramEffets = new SqlParameter("@med_effets", System.Data.SqlDbType.Char, 30);
+            SqlParameter paramEffets = new SqlParameter("@med_effets", System.Data.SqlDbType.VarChar, 30);
             paramEffets.Value = effets;
-            SqlParameter paramCI = new SqlParameter("@med_contreIndications", System.Data.SqlDbType.Char, 255);
+            SqlParameter paramCI = new SqlParameter("@med_contreIndications", System.Data.SqlDbType.VarChar, 255);
             paramCI.Value = conteIndications;
-            SqlParameter paramAmm = new SqlParameter("@med_Amm", System.Data.SqlDbType.Char, 30);
-            SqlParameter paramFamCode = new SqlParameter("@fam_code", System.Data.SqlDbType.Int, 30);
+            SqlParameter paramAmm = new SqlParameter("@med_Amm", System.Data.SqlDbType.Int, 30);
+            SqlParameter paramFamCode = new SqlParameter("@fam_code", System.Data.SqlDbType.VarChar, 30);
             paramAmm.Value = Amm;
             paramFamCode.Value = code;
 

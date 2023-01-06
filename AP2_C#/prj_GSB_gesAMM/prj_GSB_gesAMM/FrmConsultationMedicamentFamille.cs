@@ -19,7 +19,7 @@ namespace prj_GSB_gesAMM
 
         private void FrmConsultationMedicamentFamille_Load(object sender, EventArgs e)
         {
-            btn_Valider.Enabled = false;
+            btn_Valider.Enabled = true;
         }
 
         private void tbFamille_TextChanged(object sender, EventArgs e)
@@ -33,22 +33,15 @@ namespace prj_GSB_gesAMM
         private void btn_Valider_Click(object sender, EventArgs e)
         {
             lvMedicament.Items.Clear();
-            Dictionary<string,Famille>.KeyCollection lesMedics=Globale.lesFamilles.Keys;
-            foreach (string libelle in lesMedics) 
+            foreach (string codeFam in Globale.lesFamilles.Keys) 
             {
-                    Famille laFamille = Globale.lesFamilles[libelle];
-                    if (laFamille.getLibelle() == tbFamille.Text)
-                    {
-                    
-                        ListViewItem ligne = new ListViewItem();
+                ListViewItem ligne = new ListViewItem();
 
-                    ligne.Text = laFamille.getFamCode(); ;
-                        ligne.SubItems.Add(laFamille.getLibelle());
-                        ligne.SubItems.Add(laFamille.getnbMediAmm().ToString()) ;
-                        lvMedicament.Items.Add(ligne);
-                    }
-                }
+                ligne.Text = Globale.lesFamilles[codeFam].getFamCode();
+                ligne.SubItems.Add(Globale.lesFamilles[codeFam].getLibelle());
+                ligne.SubItems.Add(Globale.lesFamilles[codeFam].getnbMediAmm().ToString());
+                lvMedicament.Items.Add(ligne);
             }
         }
     }
-
+}

@@ -69,5 +69,10 @@ namespace prj_GSB_gesAMM
             }
             catch { } 
         }
+
+        private void btnQuitter_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

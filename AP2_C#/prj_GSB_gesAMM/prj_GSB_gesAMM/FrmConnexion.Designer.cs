@@ -101,6 +101,7 @@
             // 
             this.TbMdp.Location = new System.Drawing.Point(348, 312);
             this.TbMdp.Name = "TbMdp";
+            this.TbMdp.PasswordChar = '*';
             this.TbMdp.Size = new System.Drawing.Size(209, 27);
             this.TbMdp.TabIndex = 5;
             // 

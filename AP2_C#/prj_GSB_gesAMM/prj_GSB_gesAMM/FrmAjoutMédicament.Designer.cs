@@ -203,6 +203,7 @@
             this.btn_Insérer.TabIndex = 19;
             this.btn_Insérer.Text = "Insérer";
             this.btn_Insérer.UseVisualStyleBackColor = false;
+            this.btn_Insérer.Click += new System.EventHandler(this.btn_Insérer_Click);
             // 
             // btn_Accueil
             // 
@@ -213,6 +214,7 @@
             this.btn_Accueil.TabIndex = 20;
             this.btn_Accueil.Text = "Retour";
             this.btn_Accueil.UseVisualStyleBackColor = false;
+            this.btn_Accueil.Visible = false;
             this.btn_Accueil.Click += new System.EventHandler(this.btn_Accueil_Click);
             // 
             // btn_Annuler
