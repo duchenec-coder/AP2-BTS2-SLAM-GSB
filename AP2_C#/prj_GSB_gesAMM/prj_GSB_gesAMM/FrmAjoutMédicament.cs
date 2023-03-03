@@ -200,6 +200,7 @@ namespace prj_GSB_gesAMM
         {
             if (Bdd.ajouterMedicament(tb_depot.Text, tb_Commercial.Text, tb_Compo.Text, tb_Effets.Text, tb_CI.Text, int.Parse(tb_Amm.Text), cb_Famille.SelectedItem.ToString()))
             {
+                Bdd.ajouterMedicament(tb_depot.Text, tb_Commercial.Text, tb_Compo.Text, tb_Effets.Text, tb_CI.Text, int.Parse(tb_Amm.Text), cb_Famille.SelectedItem.ToString());
                 MessageBox.Show("L'insertion du nouveau édicament a réussie");
             }
             else

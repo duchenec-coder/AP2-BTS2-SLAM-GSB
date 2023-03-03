@@ -1,5 +1,10 @@
+using System.Security.Cryptography;
+using System.Text;
+
 namespace prj_GSB_gesAMM
 {
+
+
     public partial class FrmConnexion : Form
     {
         public FrmConnexion()
@@ -16,7 +21,12 @@ namespace prj_GSB_gesAMM
         {
             if (Globale.LesUtilisateurs.Keys.Contains(TbIdentifiant.Text))
             {
-                if (Globale.LesUtilisateurs[TbIdentifiant.Text].getMdp() == TbMdp.Text)
+                var bytes = new UTF8Encoding().GetBytes(TbMdp.Text);
+                var hash = System.Security.Cryptography.SHA256.Create().ComputeHash(bytes);
+                string mdpSaisi = Convert.ToBase64String(hash);
+                Console.WriteLine(mdpSaisi);
+                Console.WriteLine(Globale.LesUtilisateurs[TbIdentifiant.Text].getMdp());
+                if (Globale.LesUtilisateurs[TbIdentifiant.Text].getMdp() == mdpSaisi)
                 {                  
                     FrmMenu frmMenu = new FrmMenu();
                     frmMenu.Show();
